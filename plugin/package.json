@@ -1,0 +1,17 @@
+{
+  "name": "blend-figma-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/code.ts src/ui.ts src/worker.ts --bundle --outdir=dist --format=esm --platform=browser --sourcemap --minify && cp src/ui.html dist/ui.html && cp src/ui.css dist/ui.css && cp manifest.json dist/manifest.json",
+    "watch": "esbuild src/code.ts src/ui.ts src/worker.ts --bundle --outdir=dist --format=esm --platform=browser --sourcemap --watch",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.123.0",
+    "@types/jest": "^30.0.0",
+    "esbuild": "^0.18.12",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Blend Open Paths",
+  "id": "blend-open-paths",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "permissions": []
+}

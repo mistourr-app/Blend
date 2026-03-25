@@ -1,0 +1,8 @@
+.app { font-family: Inter, system-ui, -apple-system, sans-serif; margin: 12px; }
+.section { margin-bottom: 12px; }
+label { display: block; margin-bottom: 6px; }
+.buttons { display: flex; gap: 6px; margin-bottom: 12px; }
+button { padding: 8px 10px; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer; }
+.log { max-height: 160px; overflow-y: auto; border: 1px solid #eee; padding: 6px; font-size: 12px; background: #fcfcfc; }
+.info { color: #1f6feb; }
+.error { color: #cf222e; }
